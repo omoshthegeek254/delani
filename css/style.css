@@ -1,3 +1,6 @@
 #landing{
     background-image: url(/images/backgrounds/h_img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 70vh;
 }
