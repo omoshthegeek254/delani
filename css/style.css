@@ -14,3 +14,10 @@
     color: white;
 }
 
+#contactus{
+    background-image: url(/images/backgrounds/c_image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 70vh;
+    color: white;
+}
