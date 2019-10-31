@@ -8,4 +8,9 @@
 
 #services{
     background-image: url(/images/backgrounds/s_image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 70vh;
+    color: white;
 }
+
