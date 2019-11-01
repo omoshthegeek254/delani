@@ -2,27 +2,82 @@
     background-image: url(/images/backgrounds/h_img.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 70vh;
+    height: 100vh;
     color: white;
+
 }
 
+#landing img{
+    margin-top: 38vh;
+    margin-bottom: 4vh;
+}
+
+#landing h1{
+    margin-bottom: 2vh;
+    font-size: 5vh;
+}
+#about {
+    margin-top: 12vh;
+    margin-bottom: 10vh;
+}
+
+#services h1{
+    margin-top: 15vh;
+    margin-bottom: 5vh;
+}
 #services{
     background-image: url(/images/backgrounds/s_image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 70vh;
     color: white;
+    
 }
 
 #contactus{
     background-image: url(/images/backgrounds/c_image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 70vh;
+    height: 70vh;
     color: white;
+    
+}
+#contactus h1{
+    padding-top: 3vh;
+}
+
+#whatwedo{
+  padding-top: 10vh; 
+  padding-bottom: 10vh; 
 }
 
 #icon{
     background-color: black;
     color: black;
+}
+
+#message {
+    height: 20vh;
+    
+}
+#form input::placeholder{
+    color:white;
+}
+ #name{
+    width: 50vh;
+}
+
+#form input{
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: 2px solid white;
+    margin: 1vh;
+}
+
+.portf{
+    margin-bottom: 5vh;
+}
+
+#portfh{
+    margin-bottom: 3    Q1vh;
 }
