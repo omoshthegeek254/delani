@@ -24,4 +24,11 @@ $(document).ready(function () {
     $("#overlay4").hide();
   })
 
+  $(".three").hover(function () {
+    $("#overlay3").show();
+  })
+  $(".three").mouseleave(function () {
+    $("#overlay3").hide();
+  })
+
 });  
