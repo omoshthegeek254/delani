@@ -1,11 +1,14 @@
 $(document).ready(function () {
-    $(".toggle").click(function () {
-      $(".p-show").toggle();
-    });
-  })
-  
-  $(document).ready(function(){
-    $(".portfolio").hover(function () {
-      $("")
-    }
-  }
+
+  $("#design").click(function(){
+    $("#img").toggle();
+    $("#hide").toggle();
+  });
+
+  $(".devh").click(function(){
+    $("#dev").toggle();
+    $("#devh").toggle();
+  });
+
+
+});  
