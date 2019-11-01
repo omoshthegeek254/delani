@@ -63,8 +63,8 @@
 #form input::placeholder{
     color:white;
 }
- #name{
-    width: 50vh;
+ #name,#email{
+    width: 42vh;
 }
 
 #form input{
@@ -80,4 +80,8 @@
 
 #portfh{
     margin-bottom: 3    Q1vh;
+}
+#footer{
+    text-align: center;
+    padding: 5vh;
 }
