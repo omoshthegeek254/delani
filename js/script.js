@@ -1,14 +1,27 @@
 $(document).ready(function () {
 
   $("#design").click(function(){
-    $("#img").toggle();
-    $("#hide").toggle();
+    $("#des").toggle();
+    $("#desh").toggle();
   });
 
-  $(".devh").click(function(){
+  $("#development").click(function(){
     $("#dev").toggle();
     $("#devh").toggle();
   });
 
+
+  $("#products").click(function(){
+    $("#prod").toggle();
+    $("#prodh").toggle();
+  });
+
+  //hovering effect
+  $(".four").hover(function () {
+    $("#overlay4").show();
+  })
+  $(".four").mouseleave(function () {
+    $("#overlay4").hide();
+  })
 
 });  
