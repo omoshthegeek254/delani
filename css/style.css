@@ -2,16 +2,18 @@
     background-image: url(/images/backgrounds/h_img.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 102vh;
     color: white;
 
 }
 
-#landing img{
+#imgf{
     margin-top: 38vh;
     margin-bottom: 4vh;
 }
-
+#imgf2{
+    margin-top: 24vh;
+}
 #landing h1{
     margin-bottom: 2vh;
     font-size: 5vh;

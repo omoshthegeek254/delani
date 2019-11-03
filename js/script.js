@@ -1,5 +1,20 @@
 $(document).ready(function () {
 
+
+
+   //form processing
+
+   $("form").submit(
+     function(){
+      var name =$("input#name").val();
+      var email =$("input#email").val();
+      var message =$("input#message").val();
+      
+      alert("Message received , Our team will get intouch within the shortest time possible  "+name);
+      
+     }
+   )
+ 
   $("#design").click(function(){
     $("#des").toggle();
     $("#desh").toggle();
@@ -74,14 +89,6 @@ $(document).ready(function () {
     $("#overlay8").hide();
   })
   
-  //form processing
-  var submit = function(){
-    $("submit").click(function(){
-      var name =$("#name").val();
-      var email =$("#email").val();
-      var message =$("#message").val();
-      $(".feedback").write("Message sent successfully, Our team will getintouch within the shortest time possible  "+name);
-    });
-  }
+  event.preventDefault();
 
 });  
