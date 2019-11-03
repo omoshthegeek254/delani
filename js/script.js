@@ -73,5 +73,15 @@ $(document).ready(function () {
   $(".eight").mouseleave(function () {
     $("#overlay8").hide();
   })
+  
+  //form processing
+  var submit = function(){
+    $("submit").click(function(){
+      var name =$("#name").val();
+      var email =$("#email").val();
+      var message =$("#message").val();
+      $(".feedback").write("Message sent successfully, Our team will getintouch within the shortest time possible  "+name);
+    });
+  }
 
 });  
