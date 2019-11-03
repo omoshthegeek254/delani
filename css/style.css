@@ -1,8 +1,8 @@
 #landing{
-    background-image: url(/images/backgrounds/h_img.jpg);
+    background-image: url(images/backgrounds/h_img.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 102vh;
+    height: 100vh;
     color: white;
 
 }
@@ -28,16 +28,16 @@
     margin-bottom: 5vh;
 }
 #services{
-    background-image: url(/images/backgrounds/s_image.jpg);
+    background-image: url(images/backgrounds/s_image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 70vh;
     color: white;
     
-}
+} 
 
 #contactus{
-    background-image: url(/images/backgrounds/c_image.jpg);
+    background-image: url(images/backgrounds/c_image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 60vh;
