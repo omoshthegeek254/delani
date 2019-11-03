@@ -41,7 +41,7 @@
 ##  Screen Shots
   - Below is the screen shot of the project
 
-  - <img src="../images/delani.jpg">
+  - <img src="images/delani.jpg">
 
 ## Support or contribution instructions
 For those inspired by my projects and feel like appreciating me finacial wise, you are more than welcome to send your contributions to the platforms below :
